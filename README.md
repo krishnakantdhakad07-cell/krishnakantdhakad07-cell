@@ -1,24 +1,24 @@
 <div align="center">
-  <!-- Futuristic Cyberpunk / Sci-Fi Header -->
-  <img src="https://capsule-render.vercel.app/api?type=slice&color=0:000000,40:0d1117,70:091e3a,100:00f0ff&height=240&section=header&text=KRISHNKANT%20DHAKAR&fontSize=46&fontColor=00f0ff&animation=twinkling&fontAlignY=38&desc=%5B%20CYBERNETIC%20SYSTEMS%20ARCHITECT%20%7C%20AI%20%26%20FULL-STACK%20ENGINEER%20%5D&descAlignY=64&descAlign=50&descSize=16" width="100%"/>
+  <!-- 🌌 Futuristic Glowing Cyberpunk Command Station Banner -->
+  <img src="./assets/cyber_banner.jpg" width="100%" alt="Cyberpunk Command Center Banner" style="border-radius: 14px;" />
   
-  <br/>
+  <br/><br/>
 
-  <!-- Sci-Fi Terminal Typing SVG -->
+  <!-- ⚡ Futuristic Orbitron Terminal Typing SVG -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=20&pause=1000&color=00F0FF&center=true&vCenter=true&random=false&width=650&lines=%3E+INITIALIZING+NEURAL+CORE...;%3E+IDENTITY%3A+KRISHNKANT+DHAKAR;%3E+SPECIALIZATION%3A+FULL-STACK+%26+AI+AUTOMATIONS;%3E+LOCATION%3A+GWALIOR+NODE+%5B26.21%C2%B0+N%2C+78.17%C2%B0+E%5D;%3E+STATUS%3A+OVERCLOCKING+CODE+24%2F7+%E2%9A%A1;%3E+TURNING+COMPLEX+LOGIC+INTO+SEAMLESS+REALITY+%F0%9F%92%8E" alt="Futuristic Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&pause=1000&color=00F0FF&center=true&vCenter=true&random=false&width=650&lines=%3E+INITIALIZING+NEURAL+CORE...;%3E+OPERATOR%3A+KRISHNKANT+DHAKAR;%3E+ROLE%3A+FULL-STACK+DEV+AND+AI+ARCHITECT;%3E+GRID+LOCATION%3A+GWALIOR+NODE;%3E+STATUS%3A+OVERCLOCKING+CODE+24-7+ACTIVE;%3E+BUILDING+NEXT-GEN+INTELLIGENT+SYSTEMS" alt="Futuristic Typing SVG" />
   </a>
 
   <br/><br/>
 
-  <!-- Holographic HUD Telemetry Badges -->
+  <!-- 🛡️ Holographic Telemetry Badges -->
   <p align="center">
-    <img src="https://img.shields.io/badge/SECURITY_CLEARANCE-LEVEL_10-00f0ff?style=for-the-badge&logo=matrix&logoColor=00f0ff&labelColor=0a0a14" alt="Clearance"/>
-    <img src="https://img.shields.io/badge/GRID_LOCATION-GWALIOR%2C%20INDIA%20📍-ff007f?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=0a0a14" alt="Location"/>
+    <img src="https://img.shields.io/badge/SECURITY_CLEARANCE-LEVEL_10-00f0ff?style=for-the-badge&logo=matrix&logoColor=00f0ff&labelColor=05050f" alt="Clearance"/>
+    <img src="https://img.shields.io/badge/BASE_NODE-GWALIOR%2C%20INDIA-ff007f?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=05050f" alt="Location"/>
     <a href="https://github.com/krishnakantdhakad07-cell?tab=repositories">
-      <img src="https://img.shields.io/badge/CORE_MODULES-ACTIVE_REPOS-7928ca?style=for-the-badge&logo=gitbook&logoColor=white&labelColor=0a0a14" alt="Repos"/>
+      <img src="https://img.shields.io/badge/CORE_MODULES-ACTIVE_REPOS-7928ca?style=for-the-badge&logo=gitbook&logoColor=white&labelColor=05050f" alt="Repos"/>
     </a>
-    <img src="https://komarev.com/ghpvc/?username=krishnakantdhakad07-cell&label=TELEMETRY_HITS&color=00f0ff&style=for-the-badge" alt="Views"/>
+    <img src="https://komarev.com/ghpvc/?username=krishnakantdhakad07-cell&label=SYSTEM_PINGS&color=00f0ff&style=for-the-badge" alt="Views"/>
   </p>
 </div>
 
@@ -34,8 +34,8 @@
 # ═══════════════════════════════════════════════════════════════
 OPERATOR         : Krishnkant Dhakar
 DESIGNATION      : Full-Stack Engineer & AI Automation Architect
-BASE_SECTOR      : Gwalior [IN-CENTRAL], Earth 🌍
-NEURAL_CORE      : [TypeScript, JavaScript, Python, Modern Web Stack]
+BASE_SECTOR      : Gwalior [IN-CENTRAL], Earth
+NEURAL_CORE      : [TypeScript, JavaScript, Python, React, Node.js, Linux]
 CURRENT_STATE    : 🟢 OPTIMAL | Compiling Scalable Web Apps & AI Systems
 SYSTEM_MOTTO     : "Talk is cheap. Show me the running binary."
 SYSTEM_PROTOCOL  : [Clean Architecture, Hyper-Performance, Zero-Downtime]
@@ -47,11 +47,11 @@ SYSTEM_PROTOCOL  : [Clean Architecture, Hyper-Performance, Zero-Downtime]
 <table align="center" width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h4>⚡ CORE OBJECTIVES & DIRECTIVES</h4>
+      <h4>⚡ CORE DIRECTIVES & MISSION</h4>
       <ul>
-        <li>🔮 <b>Current Mission:</b> Engineering ultra-fast web architectures & AI automation pipelines.</li>
-        <li>🧬 <b>Exploration Vector:</b> Next.js 15, Scalable Cloud Deployments & Distributed Logic.</li>
-        <li>🛡️ <b>Philosophy:</b> Micro-interactions, pixel-perfection, and rock-solid code efficiency.</li>
+        <li>🔮 <b>Current Mission:</b> Engineering ultra-fast web architectures and AI automation pipelines.</li>
+        <li>🧬 <b>Exploration Vector:</b> Next.js 15, Scalable Cloud Deployments and Distributed Systems.</li>
+        <li>🛡️ <b>Philosophy:</b> Micro-interactions, pixel-perfection, and rock-solid execution.</li>
       </ul>
     </td>
     <td width="50%" valign="top">
@@ -121,18 +121,7 @@ SYSTEM_PROTOCOL  : [Clean Architecture, Hyper-Performance, Zero-Downtime]
 
 ---
 
-### 📊 `// SYSTEM METRICS & CONTRIBUTION GRID`
-
-<div align="center">
-  <!-- Contribution Grid Snake Cyberpunk Animation -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/krishnakantdhakad07-cell/krishnakantdhakad07-cell/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/krishnakantdhakad07-cell/krishnakantdhakad07-cell/output/github-contribution-grid-snake.svg" />
-    <img alt="Neural Snake Grid" src="https://raw.githubusercontent.com/krishnakantdhakad07-cell/krishnakantdhakad07-cell/output/github-contribution-grid-snake-dark.svg" width="100%" />
-  </picture>
-</div>
-
-<br/>
+### 📊 `// SYSTEM METRICS & CONTRIBUTION MATRIX`
 
 <!-- Neon Glowing Stats Cards with Radical / Cyberpunk Color Schemes -->
 <div align="center">
@@ -183,7 +172,3 @@ SYSTEM_PROTOCOL  : [Clean Architecture, Hyper-Performance, Zero-Downtime]
 </div>
 
 <br/>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=slice&color=0:000000,40:0d1117,70:091e3a,100:00f0ff&height=100&section=footer" width="100%"/>
-</div>
