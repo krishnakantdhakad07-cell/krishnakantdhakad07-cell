@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="100%" height="280">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#02040a" />
+      <stop offset="50%" stop-color="#050b1a" />
+      <stop offset="100%" stop-color="#02050f" />
+    </linearGradient>
+
+    <!-- Neon Glow Filter -->
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="glowPink" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <linearGradient id="cyberBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff" />
+      <stop offset="50%" stop-color="#ff007f" />
+      <stop offset="100%" stop-color="#00f0ff" />
+    </linearGradient>
+
+    <pattern id="cyberGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#00f0ff" stroke-width="0.3" stroke-opacity="0.15" />
+    </pattern>
+
+    <style>
+      @keyframes matrixRain1 {
+        0% { transform: translateY(-240px); opacity: 0; }
+        20% { opacity: 0.9; }
+        80% { opacity: 0.9; }
+        100% { transform: translateY(300px); opacity: 0; }
+      }
+      @keyframes matrixRain2 {
+        0% { transform: translateY(-200px); opacity: 0; }
+        25% { opacity: 0.8; }
+        75% { opacity: 0.8; }
+        100% { transform: translateY(320px); opacity: 0; }
+      }
+      @keyframes matrixRain3 {
+        0% { transform: translateY(-260px); opacity: 0; }
+        15% { opacity: 0.95; }
+        85% { opacity: 0.95; }
+        100% { transform: translateY(300px); opacity: 0; }
+      }
+      @keyframes scanline {
+        0% { transform: translateY(0px); opacity: 0.6; }
+        50% { opacity: 0.2; }
+        100% { transform: translateY(280px); opacity: 0.6; }
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { filter: drop-shadow(0 0 5px #00f0ff); }
+        50% { filter: drop-shadow(0 0 15px #ff007f); }
+      }
+      @keyframes barProgress {
+        0% { width: 40px; }
+        50% { width: 280px; }
+        100% { width: 40px; }
+      }
+      .col1 { font-family: 'Courier New', monospace; font-size: 13px; fill: #00ff66; animation: matrixRain1 4s linear infinite; }
+      .col2 { font-family: 'Courier New', monospace; font-size: 12px; fill: #00f0ff; animation: matrixRain2 3.2s linear infinite 0.8s; }
+      .col3 { font-family: 'Courier New', monospace; font-size: 13px; fill: #39ff14; animation: matrixRain3 4.5s linear infinite 1.5s; }
+      .col4 { font-family: 'Courier New', monospace; font-size: 12px; fill: #00e5ff; animation: matrixRain1 3.7s linear infinite 2.1s; }
+      .col5 { font-family: 'Courier New', monospace; font-size: 13px; fill: #ff007f; animation: matrixRain2 4.2s linear infinite 0.4s; }
+      .col6 { font-family: 'Courier New', monospace; font-size: 12px; fill: #00ff88; animation: matrixRain3 3.5s linear infinite 1.9s; }
+      .col7 { font-family: 'Courier New', monospace; font-size: 13px; fill: #00f0ff; animation: matrixRain1 4.8s linear infinite 0.2s; }
+      .hud-title { font-family: 'Orbitron', 'Segoe UI', system-ui, sans-serif; font-weight: 900; font-size: 26px; fill: #ffffff; letter-spacing: 4px; }
+      .hud-sub { font-family: 'Courier New', monospace; font-weight: 700; font-size: 12px; fill: #00f0ff; letter-spacing: 2px; }
+      .hud-tag { font-family: 'Courier New', monospace; font-size: 11px; fill: #ff007f; letter-spacing: 1px; }
+      .cursor { animation: blink 1s infinite; fill: #00f0ff; }
+      .scan { animation: scanline 3s linear infinite; }
+      .hud-box { animation: pulseGlow 4s infinite; }
+      .prog-bar { animation: barProgress 6s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="900" height="280" rx="14" fill="url(#bgGrad)" />
+  <rect width="900" height="280" rx="14" fill="url(#cyberGrid)" />
+
+  <!-- Matrix Digital Code Rain Background Columns -->
+  <g opacity="0.45">
+    <text x="30" y="0" class="col1">0 1 1 0 1 0 1<tspan x="30" dy="18">const SYS = 0x7F</tspan><tspan x="30" dy="18">λ => async_exec()</tspan><tspan x="30" dy="18">0 1 0 0 1 1</tspan><tspan x="30" dy="18">NEURAL_NET_LOAD</tspan><tspan x="30" dy="18">0x88 0xFA 0x01</tspan><tspan x="30" dy="18">SOCKET_CONNECTED</tspan><tspan x="30" dy="18">1 0 1 1 0 0 1</tspan></text>
+    <text x="140" y="0" class="col2">import { Quantum }</text><text x="140" y="0" class="col2"><tspan x="140" dy="18">0 1 1 0 0 1</tspan><tspan x="140" dy="18">OVERCLOCK_READY</tspan><tspan x="140" dy="18">BUFFER_STREAM</tspan><tspan x="140" dy="18">1 1 0 1 0 1</tspan><tspan x="140" dy="18">0xFF 0xAA 0x12</tspan><tspan x="140" dy="18">PING: 0.001ms</tspan></text>
+    <text x="260" y="0" class="col3">0 0 1 1 0 1<tspan x="260" dy="18">while(active) {</tspan><tspan x="260" dy="18">  build_future();</tspan><tspan x="260" dy="18">}</tspan><tspan x="260" dy="18">1 0 0 1 1 0</tspan><tspan x="260" dy="18">CORE_TEMP: 32C</tspan><tspan x="260" dy="18">0x00FF44</tspan></text>
+    <text x="640" y="0" class="col4">0 1 0 1 1 0 1<tspan x="640" dy="18">TypeScript_v5</tspan><tspan x="640" dy="18">AI_PIPELINE_INIT</tspan><tspan x="640" dy="18">1 1 0 0 1 0</tspan><tspan x="640" dy="18">SYSTEM_STABLE</tspan><tspan x="640" dy="18">0xDE 0xAD 0xBE</tspan><tspan x="640" dy="18">PORT: 8080</tspan></text>
+    <text x="750" y="0" class="col5">1 0 1 1 0 1<tspan x="750" dy="18">NODE_CLUSTER</tspan><tspan x="750" dy="18">0 1 0 1 1 0 0</tspan><tspan x="750" dy="18">FAST_API_GATE</tspan><tspan x="750" dy="18">DEPLOY: SUCCESS</tspan><tspan x="750" dy="18">0x77 0x11 0x99</tspan></text>
+    <text x="840" y="0" class="col6">0 1 1 0 1<tspan x="840" dy="18">REACT_19</tspan><tspan x="840" dy="18">0 0 1 0 1</tspan><tspan x="840" dy="18">VCS_PUSHED</tspan><tspan x="840" dy="18">1 1 1 0 0</tspan><tspan x="840" dy="18">0x44 0x02</tspan></text>
+  </g>
+
+  <!-- Horizontal Scanline Animation -->
+  <line x1="0" y1="0" x2="900" y2="0" stroke="#00f0ff" stroke-width="1.5" stroke-opacity="0.4" class="scan" />
+
+  <!-- Center Cyberpunk HUD Command Terminal -->
+  <g transform="translate(160, 35)">
+    <!-- HUD Outer Glow Border -->
+    <rect x="0" y="0" width="580" height="210" rx="10" fill="#030816" fill-opacity="0.88" stroke="url(#cyberBorder)" stroke-width="1.8" class="hud-box" />
+
+    <!-- Cyberpunk Corner Accents -->
+    <path d="M 0 25 L 0 0 L 25 0" fill="none" stroke="#00f0ff" stroke-width="3.5" />
+    <path d="M 555 0 L 580 0 L 580 25" fill="none" stroke="#ff007f" stroke-width="3.5" />
+    <path d="M 580 185 L 580 210 L 555 210" fill="none" stroke="#00f0ff" stroke-width="3.5" />
+    <path d="M 25 210 L 0 210 L 0 185" fill="none" stroke="#ff007f" stroke-width="3.5" />
+
+    <!-- Terminal Header Bar -->
+    <rect x="12" y="10" width="556" height="24" rx="4" fill="#08142c" />
+    <circle cx="28" cy="22" r="4.5" fill="#ff0055" />
+    <circle cx="44" cy="22" r="4.5" fill="#ffbd2e" />
+    <circle cx="60" cy="22" r="4.5" fill="#00ff66" />
+    <text x="80" y="26" class="hud-tag">SECURE CYBER TERMINAL // NODE: GWALIOR [ONLINE]</text>
+    <text x="470" y="26" class="hud-tag" fill="#00f0ff">SYS_V4.2</text>
+
+    <!-- Main Title with Glowing Effect -->
+    <text x="290" y="78" text-anchor="middle" class="hud-title" filter="url(#glowCyan)">KRISHNKANT DHAKAR</text>
+
+    <!-- Subtitle Role Banner -->
+    <rect x="65" y="94" width="450" height="22" rx="4" fill="#0a1a38" stroke="#00f0ff" stroke-width="0.8" />
+    <text x="290" y="109" text-anchor="middle" class="hud-sub">FULL-STACK ARCHITECT // AI &amp; AUTOMATION SPECIALIST</text>
+
+    <!-- Live Running Command Stream Line -->
+    <text x="35" y="146" font-family="'Courier New', monospace" font-size="13" fill="#39ff14">&gt; EXECUTING: <tspan fill="#ffffff">neural_compile --stack=[React, TypeScript, Python, Node]</tspan></text>
+
+    <text x="35" y="170" font-family="'Courier New', monospace" font-size="13" fill="#00f0ff">&gt; STATUS: <tspan fill="#ff007f">OVERCLOCKING PRODUCTION CODE</tspan><tspan class="cursor"> _</tspan></text>
+
+    <!-- Dynamic Progress Bar -->
+    <rect x="35" y="186" width="510" height="8" rx="4" fill="#061224" />
+    <rect x="35" y="186" width="280" height="8" rx="4" fill="url(#cyberBorder)" class="prog-bar" />
+  </g>
+
+  <!-- Cyberpunk Top & Bottom Outer Tech Accents -->
+  <line x1="20" y1="20" x2="120" y2="20" stroke="#00f0ff" stroke-width="2" />
+  <circle cx="125" cy="20" r="3" fill="#00f0ff" />
+  <line x1="780" y1="260" x2="880" y2="260" stroke="#ff007f" stroke-width="2" />
+  <circle cx="775" cy="260" r="3" fill="#ff007f" />
+</svg>

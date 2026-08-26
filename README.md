@@ -1,24 +1,24 @@
 <div align="center">
-  <!-- 🌌 Futuristic Glowing Cyberpunk Command Station Banner -->
-  <img src="./assets/cyber_banner.jpg" width="100%" alt="Cyberpunk Command Center Banner" style="border-radius: 14px;" />
+  <!-- ⚡ LIVE ANIMATED CYBERPUNK MATRIX HACKER HUD BANNER -->
+  <img src="./assets/hacker_matrix.svg" width="100%" alt="Cyberpunk Matrix Command Terminal Banner" />
   
   <br/><br/>
 
-  <!-- ⚡ Futuristic Orbitron Terminal Typing SVG -->
+  <!-- 💻 FUTURISTIC ORBITRON TYPING TERMINAL -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&pause=1000&color=00F0FF&center=true&vCenter=true&random=false&width=650&lines=%3E+INITIALIZING+NEURAL+CORE...;%3E+OPERATOR%3A+KRISHNKANT+DHAKAR;%3E+ROLE%3A+FULL-STACK+DEV+AND+AI+ARCHITECT;%3E+GRID+LOCATION%3A+GWALIOR+NODE;%3E+STATUS%3A+OVERCLOCKING+CODE+24-7+ACTIVE;%3E+BUILDING+NEXT-GEN+INTELLIGENT+SYSTEMS" alt="Futuristic Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=21&pause=1000&color=00F0FF&center=true&vCenter=true&random=false&width=650&lines=%3E+INITIALIZING+QUANTUM+CORE...;%3E+OPERATOR%3A+KRISHNKANT+DHAKAR;%3E+ROLE%3A+FULL-STACK+ARCHITECT+%26+AI+ENGINEER;%3E+GRID+LOCATION%3A+GWALIOR+NODE;%3E+STATUS%3A+OVERCLOCKING+PRODUCTION+CODE;%3E+TURNING+COMPLEX+LOGIC+INTO+SEAMLESS+REALITY" alt="Futuristic Typing SVG" />
   </a>
 
   <br/><br/>
 
-  <!-- 🛡️ Holographic Telemetry Badges -->
+  <!-- 🛡️ HOLOGRAPHIC TELEMETRY BADGES -->
   <p align="center">
     <img src="https://img.shields.io/badge/SECURITY_CLEARANCE-LEVEL_10-00f0ff?style=for-the-badge&logo=matrix&logoColor=00f0ff&labelColor=05050f" alt="Clearance"/>
     <img src="https://img.shields.io/badge/BASE_NODE-GWALIOR%2C%20INDIA-ff007f?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=05050f" alt="Location"/>
     <a href="https://github.com/krishnakantdhakad07-cell?tab=repositories">
       <img src="https://img.shields.io/badge/CORE_MODULES-ACTIVE_REPOS-7928ca?style=for-the-badge&logo=gitbook&logoColor=white&labelColor=05050f" alt="Repos"/>
     </a>
-    <img src="https://komarev.com/ghpvc/?username=krishnakantdhakad07-cell&label=SYSTEM_PINGS&color=00f0ff&style=for-the-badge" alt="Views"/>
+    <img src="https://komarev.com/ghpvc/?username=krishnakantdhakad07-cell&label=TELEMETRY_PINGS&color=00f0ff&style=for-the-badge" alt="Views"/>
   </p>
 </div>
 
@@ -64,6 +64,20 @@ SYSTEM_PROTOCOL  : [Clean Architecture, Hyper-Performance, Zero-Downtime]
     </td>
   </tr>
 </table>
+
+<br/>
+
+---
+
+### 🐍 `// NEURAL CONTRIBUTION GRID & SNAKE GAME`
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/krishnakantdhakad07-cell/krishnakantdhakad07-cell/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/krishnakantdhakad07-cell/krishnakantdhakad07-cell/output/github-contribution-grid-snake.svg" />
+    <img alt="Neural Snake Grid Animation" src="https://raw.githubusercontent.com/krishnakantdhakad07-cell/krishnakantdhakad07-cell/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  </picture>
+</div>
 
 <br/>
 
@@ -121,9 +135,8 @@ SYSTEM_PROTOCOL  : [Clean Architecture, Hyper-Performance, Zero-Downtime]
 
 ---
 
-### 📊 `// SYSTEM METRICS & CONTRIBUTION MATRIX`
+### 📊 `// SYSTEM METRICS & TELEMETRY MATRIX`
 
-<!-- Neon Glowing Stats Cards with Radical / Cyberpunk Color Schemes -->
 <div align="center">
   <a href="https://github.com/krishnakantdhakad07-cell">
     <img src="https://github-readme-stats.vercel.app/api?username=krishnakantdhakad07-cell&show_icons=true&theme=radical&hide_border=false&border_color=00f0ff&border_radius=10&bg_color=05050f&title_color=00f0ff&text_color=94a3b8&icon_color=ff007f" height="175" alt="Cyberpunk GitHub Stats" />
@@ -135,7 +148,7 @@ SYSTEM_PROTOCOL  : [Clean Architecture, Hyper-Performance, Zero-Downtime]
 
 <div align="center" style="margin-top: 12px;">
   <a href="https://github.com/krishnakantdhakad07-cell">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=krishnakantdhakad07-cell&theme=radical&hide_border=false&border=00f0ff&border_radius=10&background=05050f&stroke=00f0ff&ring=ff007f&fire=00f0ff&currStreakLabel=00f0ff" alt="Activity Streak Matrix" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=krishnakantdhakad07-cell&theme=radical&hide_border=false&border_color=00f0ff&border_radius=10&background=05050f&stroke=00f0ff&ring=ff007f&fire=00f0ff&currStreakLabel=00f0ff" alt="Activity Streak Matrix" />
   </a>
 </div>
 
